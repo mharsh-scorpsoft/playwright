@@ -1,0 +1,2 @@
+{"ts":"2026-01-15T11:33:36.407Z","level":"INFO","message":"Starting Timco order","orderId":"PO-4663"}
+{"ts":"2026-01-15T11:35:06.989Z","level":"ERROR","message":"Step failed","ok":false,"stepName":"loginTimco","error":"Error: page.waitForLoadState: Test timeout of 90000ms exceeded.\n=========================== logs ===========================\n  \"load\" event fired\n  \"commit\" event fired\n  \"domcontentloaded\" event fired\n  \"load\" event fired\n============================================================"}

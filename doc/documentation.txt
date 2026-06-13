@@ -1,0 +1,30 @@
+Step 1 :
+Site: https://timco.co.uk
+
+Login page: https://timco.co.uk/login
+
+Login: Email + Password (no OTP)
+
+Bot flow (first stage):
+
+Log in to Timco with stored credentials
+
+Click “Upload Order” OR go directly to https://timco.co.uk/orderupload
+
+Upload a CSV file that you provide
+
+Click the Submit/Upload button
+
+Wait until the “Upload Order” summary page appears (your second screenshot – table + Create Order button)
+
+
+
+Proper webflow:
+
+Order comes into cloud.tco.co.uk.
+
+Hit API endpoint /plawright from cloud with the shipping details and CSV.
+
+{ bot work }
+
+this will do the steps save the logs and return the response that if the order is successfully ordered or not from timco website.

@@ -1,0 +1,33 @@
+{"ts":"2026-01-14T12:27:02.150Z","level":"INFO","message":"Starting Timco order","orderId":"PO-4663"}
+{"ts":"2026-01-14T12:27:22.744Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\Harsh\\scott\\nodejs\\playwright\\Logs\\PO-4663/after-login.png"}
+{"ts":"2026-01-14T12:27:22.748Z","level":"INFO","message":"CSV created successfully","orderId":"PO-4663","filePath":"C:\\Harsh\\scott\\nodejs\\playwright\\Logs\\PO-4663\\PO-4663.csv"}
+{"ts":"2026-01-14T12:27:22.750Z","level":"STEP","message":"Opening order upload page","url":"https://timco.co.uk/orderupload"}
+{"ts":"2026-01-14T12:27:25.186Z","level":"STEP","message":"Attaching CSV to file input","csvPath":"C:\\Harsh\\scott\\nodejs\\playwright\\Logs\\PO-4663\\PO-4663.csv"}
+{"ts":"2026-01-14T12:27:25.648Z","level":"STEP","message":"Submitting upload form"}
+{"ts":"2026-01-14T12:27:29.435Z","level":"INFO","message":"Upload form submitted, page loaded"}
+{"ts":"2026-01-14T12:27:30.691Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\Harsh\\scott\\nodejs\\playwright\\Logs\\PO-4663/after-upload.png"}
+{"ts":"2026-01-14T12:27:30.693Z","level":"STEP","message":"On summary page – clicking primary \"Create Order\""}
+{"ts":"2026-01-14T12:27:32.966Z","level":"STEP","message":"Confirm modal detected after Create Order click"}
+{"ts":"2026-01-14T12:27:32.967Z","level":"STEP","message":"Clicking \"Create Order\" inside confirm modal"}
+{"ts":"2026-01-14T12:27:39.949Z","level":"INFO","message":"Reached cart page after Create Order flow","url":"https://timco.co.uk/cart"}
+{"ts":"2026-01-14T12:27:40.655Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\Harsh\\scott\\nodejs\\playwright\\Logs\\PO-4663/after-summary.png"}
+{"ts":"2026-01-14T12:27:40.661Z","level":"STEP","message":"On cart page, confirming terms and proceeding to checkout","url":"https://timco.co.uk/cart"}
+{"ts":"2026-01-14T12:27:41.923Z","level":"STEP","message":"Scrolling terms checkbox into view"}
+{"ts":"2026-01-14T12:27:42.691Z","level":"INFO","message":"Terms checkbox state before","checked":false}
+{"ts":"2026-01-14T12:27:42.692Z","level":"STEP","message":"Clicking label[for=\"termsofservice\"]"}
+{"ts":"2026-01-14T12:27:43.567Z","level":"STEP","message":"Clicking span.checkmark element"}
+{"ts":"2026-01-14T12:27:45.562Z","level":"INFO","message":"Terms checkbox state after attempts","checked":true,"hasCompletedClass":false}
+{"ts":"2026-01-14T12:27:46.334Z","level":"STEP","message":"Clicking Checkout button"}
+{"ts":"2026-01-14T12:27:50.151Z","level":"INFO","message":"Checkout click completed","newUrl":"https://timco.co.uk/checkout/addresses"}
+{"ts":"2026-01-14T12:27:54.695Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\Harsh\\scott\\nodejs\\playwright\\Logs\\PO-4663/after-checkbox.png"}
+{"ts":"2026-01-14T12:27:54.725Z","level":"STEP","message":"On checkout addresses page, opening \"Use Different Address\" modal","url":"https://timco.co.uk/checkout/addresses"}
+{"ts":"2026-01-14T12:27:55.855Z","level":"STEP","message":"Clicking \"Use Different Address\" link"}
+{"ts":"2026-01-14T12:27:56.930Z","level":"INFO","message":"Address search modal opened successfully"}
+{"ts":"2026-01-14T12:27:57.234Z","level":"STEP","message":"Clicking \"New Address\" button"}
+{"ts":"2026-01-14T12:27:57.781Z","level":"INFO","message":"new address opened successfully"}
+{"ts":"2026-01-14T12:27:58.327Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\Harsh\\scott\\nodejs\\playwright\\Logs\\PO-4663/after-modalOpened.png"}
+{"ts":"2026-01-14T12:27:58.406Z","level":"STEP","message":"Filling new shipping address modal"}
+{"ts":"2026-01-14T12:28:00.347Z","level":"INFO","message":"New shipping address modal filled successfully","first_name":"Scott","city":"Dundee","postcode":"DD4 0UH"}
+{"ts":"2026-01-14T12:28:00.605Z","level":"STEP","message":"Clicking \"Add Address\" link"}
+{"ts":"2026-01-14T12:28:10.676Z","level":"ERROR","message":"Address search modal did not appear after click"}
+{"ts":"2026-01-14T12:28:10.677Z","level":"ERROR","message":"Step failed","ok":false,"stepName":"fillNewShippingAddressModal","error":null}

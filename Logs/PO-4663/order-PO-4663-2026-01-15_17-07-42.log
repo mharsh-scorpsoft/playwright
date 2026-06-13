@@ -1,0 +1,40 @@
+{"ts":"2026-01-15T11:37:42.724Z","level":"INFO","message":"Starting Timco order","orderId":"PO-4663"}
+{"ts":"2026-01-15T11:38:03.687Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\harsh\\scott new project\\playwright\\Logs\\PO-4663/after-login.png"}
+{"ts":"2026-01-15T11:38:03.690Z","level":"INFO","message":"CSV created successfully","orderId":"PO-4663","filePath":"C:\\harsh\\scott new project\\playwright\\Logs\\PO-4663\\PO-4663.csv"}
+{"ts":"2026-01-15T11:38:03.692Z","level":"STEP","message":"Opening order upload page","url":"https://timco.co.uk/orderupload"}
+{"ts":"2026-01-15T11:38:06.008Z","level":"STEP","message":"Attaching CSV to file input","csvPath":"C:\\harsh\\scott new project\\playwright\\Logs\\PO-4663\\PO-4663.csv"}
+{"ts":"2026-01-15T11:38:06.181Z","level":"STEP","message":"Submitting upload form"}
+{"ts":"2026-01-15T11:38:11.575Z","level":"INFO","message":"Upload form submitted, page loaded"}
+{"ts":"2026-01-15T11:38:12.767Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\harsh\\scott new project\\playwright\\Logs\\PO-4663/after-upload.png"}
+{"ts":"2026-01-15T11:38:12.768Z","level":"STEP","message":"On summary page – clicking primary \"Create Order\""}
+{"ts":"2026-01-15T11:38:13.951Z","level":"STEP","message":"Confirm modal detected after Create Order click"}
+{"ts":"2026-01-15T11:38:13.952Z","level":"STEP","message":"Clicking \"Create Order\" inside confirm modal"}
+{"ts":"2026-01-15T11:38:19.706Z","level":"INFO","message":"Reached cart page after Create Order flow","url":"https://timco.co.uk/cart"}
+{"ts":"2026-01-15T11:38:20.305Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\harsh\\scott new project\\playwright\\Logs\\PO-4663/after-summary.png"}
+{"ts":"2026-01-15T11:38:20.310Z","level":"STEP","message":"On cart page, confirming terms and proceeding to checkout","url":"https://timco.co.uk/cart"}
+{"ts":"2026-01-15T11:38:20.500Z","level":"STEP","message":"Scrolling terms checkbox into view"}
+{"ts":"2026-01-15T11:38:21.184Z","level":"INFO","message":"Terms checkbox state before","checked":false}
+{"ts":"2026-01-15T11:38:21.184Z","level":"STEP","message":"Clicking label[for=\"termsofservice\"]"}
+{"ts":"2026-01-15T11:38:22.056Z","level":"INFO","message":"Terms checkbox state after attempts","checked":true,"hasCompletedClass":false}
+{"ts":"2026-01-15T11:38:22.353Z","level":"STEP","message":"Clicking Checkout button"}
+{"ts":"2026-01-15T11:38:25.997Z","level":"INFO","message":"Checkout click completed","newUrl":"https://timco.co.uk/checkout/addresses"}
+{"ts":"2026-01-15T11:38:29.264Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\harsh\\scott new project\\playwright\\Logs\\PO-4663/after-checkbox.png"}
+{"ts":"2026-01-15T11:38:29.269Z","level":"STEP","message":"On checkout addresses page, opening \"Use Different Address\" modal","url":"https://timco.co.uk/checkout/addresses"}
+{"ts":"2026-01-15T11:38:29.815Z","level":"STEP","message":"Clicking \"Use Different Address\" link"}
+{"ts":"2026-01-15T11:38:30.570Z","level":"INFO","message":"Address search modal opened successfully"}
+{"ts":"2026-01-15T11:38:30.735Z","level":"STEP","message":"Clicking \"New Address\" button"}
+{"ts":"2026-01-15T11:38:31.176Z","level":"INFO","message":"new address opened successfully"}
+{"ts":"2026-01-15T11:38:31.473Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\harsh\\scott new project\\playwright\\Logs\\PO-4663/after-modalOpened.png"}
+{"ts":"2026-01-15T11:38:31.615Z","level":"STEP","message":"Filling new shipping address modal"}
+{"ts":"2026-01-15T11:38:33.215Z","level":"INFO","message":"New shipping address modal filled successfully","first_name":"Scott","city":"Dundee","postcode":"DD4 0UH"}
+{"ts":"2026-01-15T11:38:33.379Z","level":"STEP","message":"Clicking \"Add Address\" link"}
+{"ts":"2026-01-15T11:38:33.815Z","level":"INFO","message":"Address search modal opened successfully"}
+{"ts":"2026-01-15T11:38:37.455Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\harsh\\scott new project\\playwright\\Logs\\PO-4663/after-FillNewShippingAddressModal.png"}
+{"ts":"2026-01-15T11:38:37.620Z","level":"STEP","message":"Selecting next available delivery date","dateAttr":"2026-01-16","label":"16th\n\n\nJan"}
+{"ts":"2026-01-15T11:38:37.786Z","level":"INFO","message":"Delivery date after selection","deliveryLabel":"Delivery Date: Friday, 16 January 2026"}
+{"ts":"2026-01-15T11:38:37.988Z","level":"STEP","message":"Clicking final \"Continue\" to place order"}
+{"ts":"2026-01-15T11:38:41.636Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\harsh\\scott new project\\playwright\\Logs\\PO-4663/after-dateSelected.png"}
+{"ts":"2026-01-15T11:38:41.637Z","level":"STEP","message":"Logging out from Timco"}
+{"ts":"2026-01-15T11:38:44.683Z","level":"INFO","message":"Logout successful"}
+{"ts":"2026-01-15T11:38:44.684Z","level":"INFO","message":"Log Out completed successfully"}
+{"ts":"2026-01-15T11:38:44.685Z","level":"INFO","message":"Order flow completed successfully","orderId":"PO-4663"}

@@ -1,0 +1,33 @@
+{"ts":"2025-12-27T13:07:45.315Z","level":"INFO","message":"Starting Timco order","orderId":"PO-4651"}
+{"ts":"2025-12-27T13:08:08.751Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\Harsh\\scott\\nodejs\\playwright\\Logs\\PO-4651/after-login.png"}
+{"ts":"2025-12-27T13:08:08.756Z","level":"INFO","message":"CSV created successfully","orderId":"PO-4651","filePath":"C:\\Harsh\\scott\\nodejs\\playwright\\Logs\\PO-4651\\PO-4651.csv"}
+{"ts":"2025-12-27T13:08:08.758Z","level":"STEP","message":"Opening order upload page","url":"https://timco.co.uk/orderupload"}
+{"ts":"2025-12-27T13:08:10.936Z","level":"STEP","message":"Attaching CSV to file input","csvPath":"C:\\Harsh\\scott\\nodejs\\playwright\\Logs\\PO-4651\\PO-4651.csv"}
+{"ts":"2025-12-27T13:08:11.409Z","level":"STEP","message":"Submitting upload form"}
+{"ts":"2025-12-27T13:08:17.438Z","level":"INFO","message":"Upload form submitted, page loaded"}
+{"ts":"2025-12-27T13:08:18.581Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\Harsh\\scott\\nodejs\\playwright\\Logs\\PO-4651/after-upload.png"}
+{"ts":"2025-12-27T13:08:18.583Z","level":"STEP","message":"On summary page – clicking primary \"Create Order\""}
+{"ts":"2025-12-27T13:08:20.336Z","level":"STEP","message":"Confirm modal detected after Create Order click"}
+{"ts":"2025-12-27T13:08:20.338Z","level":"STEP","message":"Clicking \"Create Order\" inside confirm modal"}
+{"ts":"2025-12-27T13:08:26.374Z","level":"INFO","message":"Reached cart page after Create Order flow","url":"https://timco.co.uk/cart"}
+{"ts":"2025-12-27T13:08:26.913Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\Harsh\\scott\\nodejs\\playwright\\Logs\\PO-4651/after-summary.png"}
+{"ts":"2025-12-27T13:08:26.917Z","level":"STEP","message":"On cart page, confirming terms and proceeding to checkout","url":"https://timco.co.uk/cart"}
+{"ts":"2025-12-27T13:08:27.100Z","level":"STEP","message":"Scrolling terms checkbox into view"}
+{"ts":"2025-12-27T13:08:27.819Z","level":"INFO","message":"Terms checkbox state before","checked":false}
+{"ts":"2025-12-27T13:08:27.820Z","level":"STEP","message":"Clicking label[for=\"termsofservice\"]"}
+{"ts":"2025-12-27T13:08:28.716Z","level":"STEP","message":"Clicking span.checkmark element"}
+{"ts":"2025-12-27T13:08:30.567Z","level":"INFO","message":"Terms checkbox state after attempts","checked":true,"hasCompletedClass":false}
+{"ts":"2025-12-27T13:08:30.965Z","level":"STEP","message":"Clicking Checkout button"}
+{"ts":"2025-12-27T13:08:34.740Z","level":"INFO","message":"Checkout click completed","newUrl":"https://timco.co.uk/checkout/addresses"}
+{"ts":"2025-12-27T13:08:38.512Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\Harsh\\scott\\nodejs\\playwright\\Logs\\PO-4651/after-checkbox.png"}
+{"ts":"2025-12-27T13:08:38.517Z","level":"STEP","message":"On checkout addresses page, opening \"Use Different Address\" modal","url":"https://timco.co.uk/checkout/addresses"}
+{"ts":"2025-12-27T13:08:39.211Z","level":"STEP","message":"Clicking \"Use Different Address\" link"}
+{"ts":"2025-12-27T13:08:40.020Z","level":"INFO","message":"Address search modal opened successfully"}
+{"ts":"2025-12-27T13:08:40.280Z","level":"STEP","message":"Clicking \"New Address\" button"}
+{"ts":"2025-12-27T13:08:40.785Z","level":"INFO","message":"new address opened successfully"}
+{"ts":"2025-12-27T13:08:41.060Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\Harsh\\scott\\nodejs\\playwright\\Logs\\PO-4651/after-modalOpened.png"}
+{"ts":"2025-12-27T13:08:41.107Z","level":"STEP","message":"Filling new shipping address modal"}
+{"ts":"2025-12-27T13:08:42.175Z","level":"INFO","message":"New shipping address modal filled successfully","first_name":"Daniel"}
+{"ts":"2025-12-27T13:08:42.437Z","level":"STEP","message":"Clicking \"Add Address\" link"}
+{"ts":"2025-12-27T13:08:52.504Z","level":"ERROR","message":"Address search modal did not appear after click"}
+{"ts":"2025-12-27T13:08:52.505Z","level":"ERROR","message":"Step failed","ok":false,"stepName":"fillNewShippingAddressModal","error":null}

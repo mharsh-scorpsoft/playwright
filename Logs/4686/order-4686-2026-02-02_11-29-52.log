@@ -1,0 +1,39 @@
+{"ts":"2026-02-02T05:59:52.882Z","level":"INFO","message":"Starting Timco order","orderId":"4686"}
+{"ts":"2026-02-02T06:00:17.198Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\harsh\\scott new project\\playwright\\Logs\\4686/after-login.png"}
+{"ts":"2026-02-02T06:00:17.201Z","level":"INFO","message":"CSV created successfully","orderId":"4686","filePath":"C:\\harsh\\scott new project\\playwright\\Logs\\4686\\4686.csv"}
+{"ts":"2026-02-02T06:00:17.202Z","level":"STEP","message":"Opening order upload page","url":"https://timco.co.uk/orderupload"}
+{"ts":"2026-02-02T06:00:19.219Z","level":"STEP","message":"Attaching CSV to file input","csvPath":"C:\\harsh\\scott new project\\playwright\\Logs\\4686\\4686.csv"}
+{"ts":"2026-02-02T06:00:19.763Z","level":"STEP","message":"Submitting upload form"}
+{"ts":"2026-02-02T06:00:25.072Z","level":"INFO","message":"Upload form submitted, page loaded"}
+{"ts":"2026-02-02T06:00:26.048Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\harsh\\scott new project\\playwright\\Logs\\4686/after-upload.png"}
+{"ts":"2026-02-02T06:00:26.049Z","level":"STEP","message":"On summary page – clicking primary \"Create Order\""}
+{"ts":"2026-02-02T06:00:32.161Z","level":"STEP","message":"No confirm modal detected, waiting for cart directly"}
+{"ts":"2026-02-02T06:00:33.424Z","level":"INFO","message":"Reached cart page after Create Order flow","url":"https://timco.co.uk/cart"}
+{"ts":"2026-02-02T06:00:33.597Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\harsh\\scott new project\\playwright\\Logs\\4686/after-summary.png"}
+{"ts":"2026-02-02T06:00:33.602Z","level":"STEP","message":"On cart page, confirming terms and proceeding to checkout","url":"https://timco.co.uk/cart"}
+{"ts":"2026-02-02T06:00:33.690Z","level":"STEP","message":"Scrolling terms checkbox into view"}
+{"ts":"2026-02-02T06:00:34.324Z","level":"INFO","message":"Terms checkbox state before","checked":false}
+{"ts":"2026-02-02T06:00:34.324Z","level":"STEP","message":"Clicking label[for=\"termsofservice\"]"}
+{"ts":"2026-02-02T06:00:35.031Z","level":"INFO","message":"Terms checkbox state after attempts","checked":true,"hasCompletedClass":false}
+{"ts":"2026-02-02T06:00:35.282Z","level":"STEP","message":"Clicking Checkout button"}
+{"ts":"2026-02-02T06:00:38.887Z","level":"INFO","message":"Checkout click completed","newUrl":"https://timco.co.uk/checkout/addresses"}
+{"ts":"2026-02-02T06:00:42.256Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\harsh\\scott new project\\playwright\\Logs\\4686/after-checkbox.png"}
+{"ts":"2026-02-02T06:00:42.264Z","level":"STEP","message":"On checkout addresses page, opening \"Use Different Address\" modal","url":"https://timco.co.uk/checkout/addresses"}
+{"ts":"2026-02-02T06:00:42.859Z","level":"STEP","message":"Clicking \"Use Different Address\" link"}
+{"ts":"2026-02-02T06:00:43.625Z","level":"INFO","message":"Address search modal opened successfully"}
+{"ts":"2026-02-02T06:00:43.764Z","level":"STEP","message":"Clicking \"New Address\" button"}
+{"ts":"2026-02-02T06:00:44.204Z","level":"INFO","message":"new address opened successfully"}
+{"ts":"2026-02-02T06:00:44.504Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\harsh\\scott new project\\playwright\\Logs\\4686/after-modalOpened.png"}
+{"ts":"2026-02-02T06:00:44.651Z","level":"STEP","message":"Filling new shipping address modal"}
+{"ts":"2026-02-02T06:00:45.994Z","level":"INFO","message":"New shipping address modal filled successfully","first_name":"Diane","city":"MALDON","postcode":"CM9 4AN"}
+{"ts":"2026-02-02T06:00:46.128Z","level":"STEP","message":"Clicking \"Add Address\" link"}
+{"ts":"2026-02-02T06:00:46.478Z","level":"INFO","message":"Address search modal opened successfully"}
+{"ts":"2026-02-02T06:00:50.133Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\harsh\\scott new project\\playwright\\Logs\\4686/after-FillNewShippingAddressModal.png"}
+{"ts":"2026-02-02T06:00:50.290Z","level":"STEP","message":"Selecting next available delivery date","dateAttr":"2026-02-03","label":"3rd\n\n\nFeb"}
+{"ts":"2026-02-02T06:00:50.450Z","level":"INFO","message":"Delivery date after selection","deliveryLabel":"Delivery Date: Tuesday, 3 February 2026"}
+{"ts":"2026-02-02T06:00:50.645Z","level":"STEP","message":"Clicking final \"Continue\" to place order"}
+{"ts":"2026-02-02T06:00:54.611Z","level":"STEP","message":"Screenshot saved at:","screenshotPath":"C:\\harsh\\scott new project\\playwright\\Logs\\4686/after-dateSelected.png"}
+{"ts":"2026-02-02T06:00:54.612Z","level":"STEP","message":"Logging out from Timco"}
+{"ts":"2026-02-02T06:00:57.724Z","level":"INFO","message":"Logout successful"}
+{"ts":"2026-02-02T06:00:57.724Z","level":"INFO","message":"Log Out completed successfully"}
+{"ts":"2026-02-02T06:00:57.725Z","level":"INFO","message":"Order flow completed successfully","orderId":"4686"}
